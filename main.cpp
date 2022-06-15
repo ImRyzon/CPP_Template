@@ -11,9 +11,7 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int testcases = 1;
+    int TEST_CASES = 1;
 
-    for (int i = 0; i < testcases; i++) {
-        solve();
-    }
+    while (TEST_CASES --> 0) solve();
 }
