@@ -6,7 +6,7 @@ using namespace std;
 #define ull unsigned long long
 #define vt vector
 #define pii pair<int, int>
-#define pll pair<long, long>
+#define pll pair<ll, ll>
 #define pb push_back
 #define eb emplace_back
 #define emp emplace
@@ -16,12 +16,14 @@ using namespace std;
 #define umap unordered_map
 #define fill(x, a) memset(x, a, sizeof(x))
 #define all(c) (c).begin(), (c).end()
+#define sizeArr(t) (sizeof(t)/sizeof((t)[0]))
+#define ell '\n'
 
 void solve() {
     
 }
 
-int main() {
+signed main() {
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
