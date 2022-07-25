@@ -18,9 +18,11 @@ using namespace std;
 #define all(c) (c).begin(), (c).end()
 #define sizeArr(t) (sizeof(t)/sizeof((t)[0]))
 #define ell '\n'
+#define scan(x) do{while((x=getchar())<'0');for(x-='0';'0'<=(_=getchar());x=(x<<3)+(x<<1)+_-'0');}while(0)
+char _;
 
 void solve() {
-    
+
 }
 
 signed main() {
